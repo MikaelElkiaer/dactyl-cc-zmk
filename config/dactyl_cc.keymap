@@ -34,7 +34,7 @@
 
   keymap {
     compatible = "zmk,keymap";
-    
+
     default_layer {
       bindings = <
         &kp Q       &kp W       &kp E       &kp R      &kp T         &kp P         &kp Y         &kp U       &kp I       &kp O
@@ -52,7 +52,7 @@
                   &none          &none           &lt 3 TAB                                 &trans        &none          &none
       >;
     };
-    
+
     sym_layer {
       bindings = <
         &kp LBRC        &kp RBRC        &kp LPAR        &kp RPAR      &none            &none  &kp N7      &kp N8       &kp N9       &kp RA(W)
@@ -60,8 +60,8 @@
         &kp LT          &kp GT          &kp LBKT        &kp RBKT      &none            &kp N0 &kp N1      &kp N2       &kp N3       &kp RA(Z)
                         &none           &none           &trans                                &lt 3 ENTER &none        &none
       >;
-    };    
-    
+    };
+
     fun_layer {
       bindings = <
         &kp K_PLAY_PAUSE &kp K_MUTE         &out OUT_TOG       &reset           &kp C_BRI_UP    &kp F12  &kp F7 &kp F8 &kp F9 &none
