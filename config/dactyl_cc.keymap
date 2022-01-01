@@ -14,6 +14,11 @@
     quick_tap_ms = <150>;
 };
 
+&kscan0 {
+    debounce-press-ms = <30>;
+    debounce-release-ms = <30>;
+};
+
 / {
   behaviors {
     hm: homerow_mods {
