@@ -49,7 +49,7 @@
         &none     &none          &none           &none     &none              &kp PSCRN     &none         &kp PG_UP      &kp INS      &none
         &kp LCTRL &hm LSHFT SLCK &hm LMETA PG_DN &kp LALT  &hm RALT END       &hm RALT HOME &hm LALT LEFT &hm RMETA DOWN &hm RSHFT UP &hm RCTRL RIGHT
         &none     &kp DEL        &kp CLCK        &none     &kp PAUSE_BREAK    &none         &kp LNLCK     &kp K_CMENU    &none        &none
-                  				 &none           &mo 3     &none              &none         &trans        &none
+                                 &none           &mo 3     &none              &none         &trans        &none
       >;
     };
 
