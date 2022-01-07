@@ -48,16 +48,16 @@
     default_layer {
       bindings = <
         &kp Q       &kp W       &kp E       &kp R       &kp T         &kp P         &kp Y      &kp U       &kp I       &kp O
-        &lhm CTRL A &lhm SHFT S &lhm META D &lhm ALT F  &rhm ALT G    &rhm ALT SEMI &lhm ALT H &rhm META J &rhm SHFT K &rhm CTRL L
+        &lhm CTRL A &lhm SHFT S &lhm META D &lhm ALT F  &lhm ALT G    &rhm ALT SEMI &rhm ALT H &rhm META J &rhm SHFT K &rhm CTRL L
         &kp Z       &kp X       &kp C       &kp V       &kp B         &kp SLASH     &kp N      &kp M       &kp CMMA    &kp DOT
-                                &kp ESC        &lt 2 SPACE &kp TAB       &kp ENTER     &lt 1 BSPC &none
+                                &kp ESC     &lt 2 SPACE &kp TAB       &kp ENTER     &lt 1 BSPC &none
       >;
     };
 
     nav_layer {
       bindings = <
         &none     &none          &none           &none     &none              &kp PSCRN     &none         &kp PG_UP      &kp INS      &none
-        &kp LCTRL &lhm SHFT SLCK &lhm META PG_DN &kp LALT  &rhm ALT END       &rhm ALT HOME &lhm ALT LEFT &rhm META DOWN &rhm SHFT UP &rhm CTRL RIGHT
+        &kp LCTRL &lhm SHFT SLCK &lhm META PG_DN &kp LALT  &lhm ALT END       &rhm ALT HOME &rhm ALT LEFT &rhm META DOWN &rhm SHFT UP &rhm CTRL RIGHT
         &none     &kp DEL        &kp CLCK        &none     &kp PAUSE_BREAK    &none         &kp LNLCK     &kp K_CMENU    &none        &none
                                  &none           &mo 3     &none              &none         &trans        &none
       >;
@@ -66,7 +66,7 @@
     sym_layer {
       bindings = <
         &kp LBRC        &kp RBRC        &kp LPAR        &kp RPAR      &none            &none  &kp N7      &kp N8       &kp N9       &kp RA(W)
-        &lhm CTRL GRAVE &lhm SHFT MINUS &lhm META EQUAL &lhm ALT APOS &rhm ALT BSLH    &none  &lhm ALT N4 &rhm META N5 &rhm SHFT N6 &kp RA(L)
+        &lhm CTRL GRAVE &lhm SHFT MINUS &lhm META EQUAL &lhm ALT APOS &lhm ALT BSLH    &none  &rhm ALT N4 &rhm META N5 &rhm SHFT N6 &kp RA(L)
         &kp LT          &kp GT          &kp LBKT        &kp RBKT      &none            &none  &kp N1      &kp N2       &kp N3       &kp RA(Z)
                                         &none           &trans        &none            &trans             &lt 3 N0     &none
       >;
