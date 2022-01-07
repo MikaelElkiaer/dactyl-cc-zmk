@@ -47,37 +47,37 @@
 
     default_layer {
       bindings = <
-        &kp Q       &kp W       &kp E       &kp R       &kp T         &kp P         &kp Y      &kp U       &kp I       &kp O
-        &lhm CTRL A &lhm SHFT S &lhm META D &lhm ALT F  &lhm ALT G    &rhm ALT SEMI &rhm ALT H &rhm META J &rhm SHFT K &rhm CTRL L
-        &kp Z       &kp X       &kp C       &kp V       &kp B         &kp SLASH     &kp N      &kp M       &kp CMMA    &kp DOT
-                                &kp ESC     &lt 2 SPACE &kp TAB       &kp ENTER     &lt 1 BSPC &none
+        &kp Q        &kp W        &kp E        &kp R       &kp T           &kp P          &kp Y       &kp U        &kp I        &kp O
+        &lhm LCTRL A &lhm LSHFT S &lhm LMETA D &lhm LALT F &lhm RALT G     &rhm RALT SEMI &rhm LALT H &rhm RMETA J &rhm RSHFT K &rhm RCTRL L
+        &kp Z        &kp X        &kp C        &kp V       &kp B           &kp SLASH      &kp N       &kp M        &kp CMMA     &kp DOT
+                                  &kp ESC      &lt 2 SPACE &kp TAB         &kp ENTER      &lt 1 BSPC  &none
       >;
     };
 
     nav_layer {
       bindings = <
-        &none     &none          &none           &none     &none              &kp PSCRN     &none         &kp PG_UP      &kp INS      &none
-        &kp LCTRL &lhm SHFT SLCK &lhm META PG_DN &kp LALT  &lhm ALT END       &rhm ALT HOME &rhm ALT LEFT &rhm META DOWN &rhm SHFT UP &rhm CTRL RIGHT
-        &none     &kp DEL        &kp CLCK        &none     &kp PAUSE_BREAK    &none         &kp LNLCK     &kp K_CMENU    &none        &none
-                                 &none           &mo 3     &none              &none         &trans        &none
+        &none     &none           &none            &none     &none               &kp PSCRN      &none          &kp PG_UP       &kp INS       &none
+        &kp LCTRL &lhm LSHFT SLCK &lhm LMETA PG_DN &kp LALT  &lhm RALT END       &rhm RALT HOME &rhm LALT LEFT &rhm RMETA DOWN &rhm RSHFT UP &rhm RCTRL RIGHT
+        &none     &kp DEL         &kp CLCK         &none     &kp PAUSE_BREAK     &none          &kp LNLCK      &kp K_CMENU     &none         &none
+                                  &none            &mo 3     &none               &none          &trans         &none
       >;
     };
 
     sym_layer {
       bindings = <
-        &kp LBRC        &kp RBRC        &kp LPAR        &kp RPAR      &none            &none  &kp N7      &kp N8       &kp N9       &kp RA(W)
-        &lhm CTRL GRAVE &lhm SHFT MINUS &lhm META EQUAL &lhm ALT APOS &lhm ALT BSLH    &none  &rhm ALT N4 &rhm META N5 &rhm SHFT N6 &kp RA(L)
-        &kp LT          &kp GT          &kp LBKT        &kp RBKT      &none            &none  &kp N1      &kp N2       &kp N3       &kp RA(Z)
-                                        &none           &trans        &none            &trans             &lt 3 N0     &none
+        &kp LBRC         &kp RBRC         &kp LPAR         &kp RPAR       &none              &none  &kp N7       &kp N8        &kp N9        &kp RA(W)
+        &lhm LCTRL GRAVE &lhm LSHFT MINUS &lhm LMETA EQUAL &lhm LALT APOS &lhm RALT BSLH     &none  &rhm LALT N4 &rhm RMETA N5 &rhm RSHFT N6 &kp RA(L)
+        &kp LT           &kp GT           &kp LBKT         &kp RBKT       &none              &none  &kp N1       &kp N2        &kp N3        &kp RA(Z)
+                                          &none            &trans         &none              &trans &lt 3 N0     &none
       >;
     };
 
     fun_layer {
       bindings = <
-        &kp K_PLAY_PAUSE &kp K_MUTE         &none              &reset           &kp C_BRI_UP    &bt BT_SEL 2 &kp F7 &kp F8 &kp F9 &kp F12  
-        &lhm CTRL K_PREV &lhm SHFT K_VOL_DN &lhm META K_VOL_UP &lhm ALT K_NEXT  &kp C_BRI_DN    &bt BT_SEL 1 &kp F4 &kp F5 &kp F6 &kp F11  
-        &bt BT_PRV       &bt BT_CLR         &out OUT_TOG       &bt BT_NXT       &bootloader     &bt BT_SEL 0 &kp F1 &kp F2 &kp F3 &kp F10  
-                                            &none              &none            &none           &none        &none  &none
+        &kp K_PLAY_PAUSE  &kp K_MUTE          &none               &reset           &kp C_BRI_UP     &bt BT_SEL 2 &kp F7 &kp F8 &kp F9 &kp F12  
+        &lhm LCTRL K_PREV &lhm LSHFT K_VOL_DN &lhm LMETA K_VOL_UP &lhm LALT K_NEXT &kp C_BRI_DN     &bt BT_SEL 1 &kp F4 &kp F5 &kp F6 &kp F11  
+        &bt BT_PRV        &bt BT_CLR          &out OUT_TOG        &bt BT_NXT       &bootloader      &bt BT_SEL 0 &kp F1 &kp F2 &kp F3 &kp F10  
+                                              &none               &none            &none            &none        &none  &none
       >;
     };
 
