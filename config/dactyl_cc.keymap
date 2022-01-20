@@ -10,8 +10,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 &mt {
-    tapping-term-ms = <100>;
-    quick_tap_ms = <200>;
+    tapping-term-ms = <150>;
+    quick_tap_ms = <300>;
     flavor = "balanced";
 };
 
@@ -27,8 +27,8 @@
       label = "POSITIONAL_HOLD_TAP";
       #binding-cells = <2>;
       flavor = "balanced";
-      tapping-term-ms = <100>;
-      quick_tap_ms = <200>;
+      tapping-term-ms = <150>;
+      quick_tap_ms = <300>;
       bindings = <&kp>, <&kp>;
       hold-trigger-key-positions = <5 6 7 8 9>;
     };
@@ -37,8 +37,8 @@
       label = "POSITIONAL_HOLD_TAP";
       #binding-cells = <2>;
       flavor = "balanced";
-      tapping-term-ms = <100>;
-      quick_tap_ms = <200>;
+      tapping-term-ms = <150>;
+      quick_tap_ms = <300>;
       bindings = <&kp>, <&kp>;
       hold-trigger-key-positions = <0 1 2 3 4>;
     };
