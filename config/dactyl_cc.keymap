@@ -9,6 +9,12 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
+&lt {
+    tapping-term-ms = <150>;
+    quick_tap_ms = <300>;
+    flavor = "hold-preferred";
+};
+
 &mt {
     tapping-term-ms = <150>;
     quick_tap_ms = <300>;
@@ -52,7 +58,7 @@
         &kp Q        &kp W        &kp E        &kp R       &kp T           &kp P          &kp Y       &kp U        &kp I        &kp O
         &lhm LCTRL A &lhm LSHFT S &lhm LMETA D &lhm LALT F &lhm RALT G     &rhm RALT SEMI &rhm LALT H &rhm RMETA J &rhm RSHFT K &rhm RCTRL L
         &kp Z        &kp X        &kp C        &kp V       &kp B           &kp SLASH      &kp N       &kp M        &kp CMMA     &kp DOT
-                                  &kp ESC      &lt 2 SPACE &kp TAB         &kp ENTER      &lt 1 BSPC  &none
+                                  &lt 3 ESC    &lt 2 SPACE &kp TAB         &kp ENTER      &lt 1 BSPC  &none
       >;
     };
 
@@ -61,16 +67,16 @@
         &none     &none           &none            &none     &none               &kp PSCRN      &none          &kp PG_UP       &kp INS       &none
         &kp LCTRL &lhm LSHFT SLCK &lhm LMETA PG_DN &kp LALT  &lhm RALT END       &rhm RALT HOME &rhm LALT LEFT &rhm RMETA DOWN &rhm RSHFT UP &rhm RCTRL RIGHT
         &none     &kp DEL         &kp CLCK         &none     &kp PAUSE_BREAK     &none          &kp LNLCK      &kp K_CMENU     &none         &none
-                                  &none            &mo 3     &none               &none          &trans         &none
+                                  &none            &none     &none               &none          &trans         &none
       >;
     };
 
     sym_layer {
       bindings = <
         &kp LBRC         &kp RBRC         &kp LPAR         &kp RPAR       &none              &none  &kp N7       &kp N8        &kp N9        &kp RA(W)
-        &lhm LCTRL GRAVE &lhm LSHFT MINUS &lhm LMETA EQUAL &lhm LALT APOS &lhm RALT BSLH     &none  &rhm LALT N4 &rhm RMETA N5 &rhm RSHFT N6 &kp RA(L)
+        &lhm LCTRL GRAVE &lhm LSHFT MINUS &lhm LMETA EQUAL &lhm LALT APOS &lhm RALT BSLH     &none  &rhm LALT N4 &rhm RMETA N5 &rhm RSHFT N6 &rhm RCTRL RA(L)
         &kp LT           &kp GT           &kp LBKT         &kp RBKT       &none              &none  &kp N1       &kp N2        &kp N3        &kp RA(Z)
-                                          &none            &trans         &none              &trans &lt 3 N0     &none
+                                          &none            &trans         &none              &none  &kp N0       &none
       >;
     };
 
