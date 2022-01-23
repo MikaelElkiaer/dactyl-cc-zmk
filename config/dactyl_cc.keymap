@@ -24,7 +24,7 @@
   behaviors {
     lhm: left_homerow_mods {
       compatible = "zmk,behavior-hold-tap";
-      label = "POSITIONAL_HOLD_TAP";
+      label = "POSITIONAL_HOLD_TAP_LEFT";
       #binding-cells = <2>;
       flavor = "hold-preferred";
       tapping-term-ms = <150>;
@@ -34,7 +34,7 @@
     };
     rhm: right_homerow_mods {
       compatible = "zmk,behavior-hold-tap";
-      label = "POSITIONAL_HOLD_TAP";
+      label = "POSITIONAL_HOLD_TAP_RIGHT";
       #binding-cells = <2>;
       flavor = "hold-preferred";
       tapping-term-ms = <150>;
